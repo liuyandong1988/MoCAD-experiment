@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 3,
+	"VersionName": "1.0.1",
+	"FriendlyName": "RoadRunner Importer",
+	"Description": "Imports FBX files with RoadRunner metadata.",
+	"Category": "Other",
+	"CreatedBy": "VectorZero Inc.",
+	"CreatedByURL": "https://www.vectorzero.io/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://tracetransit.atlassian.net/servicedesk/customer/portals",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": true,
+	"RequiresBuildPlatform": false,
+	"Modules": [
+		{
+			"Name": "RoadRunnerImporter",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		},
+		{
+			"Name": "RoadRunnerRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PostEngineInit"
+		}
+	]
+}

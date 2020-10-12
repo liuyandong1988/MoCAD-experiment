@@ -1,0 +1,8 @@
+{
+	"BuildId": "11c212fe-bb28-4fab-a7a2-d9a01fed389e",
+	"Modules": 
+	{
+		"RoadRunnerImporter": "libUE4Editor-RoadRunnerImporter.so",
+		"RoadRunnerRuntime": "libUE4Editor-RoadRunnerRuntime.so"
+	}
+}

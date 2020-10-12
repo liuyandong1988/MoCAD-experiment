@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1",
+	"FriendlyName": "RoadRunnerMaterials",
+	"Description": "Plugin for RoadRunner materials",
+	"Category": "Other",
+	"CreatedBy": "VectorZero Inc.",
+	"CreatedByURL": "https://www.vectorzero.io/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "https://tracetransit.atlassian.net/servicedesk/customer/portals",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"Installed": false
+}
