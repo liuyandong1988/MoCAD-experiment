@@ -30,7 +30,7 @@ class VehiclePIDController():
     """
 
 
-    def __init__(self, vehicle, args_lateral, args_longitudinal, max_throttle=0.75, max_brake=0.3, max_steering=0.8):
+    def __init__(self, vehicle, args_lateral, args_longitudinal, pid_lat_mark=True, max_throttle=0.75, max_brake=0.3, max_steering=0.8):
         """
         Constructor method.
 
@@ -55,9 +55,13 @@ class VehiclePIDController():
         self._world = self._vehicle.get_world()
         self.past_steering = self._vehicle.get_control().steer
         self._lon_controller = PIDLongitudinalController(self._vehicle, **args_longitudinal)
-        self._lat_controller = PIDLateralController(self._vehicle, **args_lateral)
+        self.pid_lat_mark = pid_lat_mark
+        if pid_lat_mark:
+            self._lat_controller = PIDLateralController(self._vehicle, **args_lateral)
+        else:
+            self._lat_controller = StanleyController(self._vehicle)
 
-    def run_step(self, target_speed, waypoint):
+    def run_step(self, target_speed, waypoint, waypoints=None):
         """
         Execute one step of control invoking both lateral and longitudinal
         PID controllers to reach a target waypoint
@@ -69,7 +73,11 @@ class VehiclePIDController():
         """
 
         acceleration = self._lon_controller.run_step(target_speed)
-        current_steering = self._lat_controller.run_step(waypoint)
+        if self.pid_lat_mark:
+            current_steering = self._lat_controller.run_step(waypoint)
+        else:
+            current_steering = self._lat_controller.run_step(waypoints)
+
         control = carla.VehicleControl()
         if acceleration >= 0.0:
             control.throttle = min(acceleration, self.max_throt)
@@ -78,18 +86,20 @@ class VehiclePIDController():
             control.throttle = 0.0
             control.brake = min(abs(acceleration), self.max_brake)
 
-        # Steering regulation: changes cannot happen abruptly, can't steer too much.
+        if self.pid_lat_mark:
+            # Steering regulation: changes cannot happen abruptly, can't steer too much.
+            if current_steering > self.past_steering + 0.1:
+                current_steering = self.past_steering + 0.1
+            elif current_steering < self.past_steering - 0.1:
+                current_steering = self.past_steering - 0.1
 
-        if current_steering > self.past_steering + 0.1:
-            current_steering = self.past_steering + 0.1
-        elif current_steering < self.past_steering - 0.1:
-            current_steering = self.past_steering - 0.1
-
-        if current_steering >= 0:
-            steering = min(self.max_steer, current_steering)
+            if current_steering >= 0:
+                steering = min(self.max_steer, current_steering)
+            else:
+                steering = max(-self.max_steer, current_steering)
         else:
-            steering = max(-self.max_steer, current_steering)
-
+            steering = current_steering
+        print('Steering 123', steering)
         control.steer = steering
         control.hand_brake = False
         control.manual_gear_shift = False
@@ -224,3 +234,85 @@ class PIDLateralController():
             _ie = 0.0
 
         return np.clip((self._k_p * _dot) + (self._k_d * _de) + (self._k_i * _ie), -1.0, 1.0)
+
+
+
+class StanleyController():
+    """
+    Controller implements lateral control using a StanleyController.
+    """
+
+    def __init__(self, vehicle, k_e=0.3, k_v=10):
+        """
+        Constructor method.
+
+            :param vehicle: actor to apply to local planner logic
+        """
+        self._vehicle = vehicle
+        self._k_e = k_e
+        self._k_v = k_v
+        self._e_buffer = deque(maxlen=10)
+
+    def run_step(self, waypoint):
+        """
+            :param waypoint: target waypoint
+            :return: steering control in the range [-1, 1] where:
+            -1 maximum steering to left
+            +1 maximum steering to right
+        """
+        return self._control(waypoint, self._vehicle.get_transform())
+
+    def _control(self, waypoints, vehicle_transform):
+        """
+            :param waypoint: target waypoint
+            :param vehicle_transform: current transform of the vehicle
+            :return: steering control in the range [-1, 1]
+        """
+        # --- 1. calculate heading error --- #
+        first_location = waypoints[0].transform.location
+        last_location = waypoints[-1].transform.location
+        yaw_path = np.arctan2(last_location.y - first_location.y, last_location.x - first_location.x)
+        yaw_diff = yaw_path - vehicle_transform.rotation.yaw
+        yaw_diff = yaw_diff * 2 * np.pi / 360
+        if yaw_diff > np.pi:
+            yaw_diff -= 2 * np.pi
+        if yaw_diff < - np.pi:
+            yaw_diff += 2 * np.pi
+        print('***', yaw_diff)
+
+        # --- 2. calculate crosstrack error --- #
+        vehicle_location = vehicle_transform.location
+        current_xy = np.array([vehicle_location.x, vehicle_location.y])
+        min_error = 1000
+        min_waypoints = None
+        for w in waypoints:
+            target_xy = np.array([w.transform.location.x, w.transform.location.y])
+            c_error = np.sum((current_xy-target_xy)**2)
+            if c_error < min_error:
+                min_error = c_error
+                min_waypoints = target_xy
+        crosstrack_error = min_error
+        yaw_cross_track = np.arctan2(vehicle_location.y - waypoints[0].transform.location.y,
+                                     vehicle_location.x - waypoints[0].transform.location.x)
+        yaw_path2ct = yaw_path - yaw_cross_track
+        if yaw_path2ct > np.pi:
+            yaw_path2ct -= 2 * np.pi
+        if yaw_path2ct < - np.pi:
+            yaw_path2ct += 2 * np.pi
+        if yaw_path2ct > 0:
+            crosstrack_error = abs(crosstrack_error)
+        else:
+            crosstrack_error = - abs(crosstrack_error)
+        current_vehicle_speed = get_speed(self._vehicle)
+        yaw_diff_crosstrack = np.arctan(self._k_e * crosstrack_error / (self._k_v + current_vehicle_speed))
+
+        # --- 3. control low --- #
+        steer_expect = yaw_diff + yaw_diff_crosstrack
+        if steer_expect > np.pi:
+            steer_expect -= 2 * np.pi
+        if steer_expect < - np.pi:
+            steer_expect += 2 * np.pi
+        steer_expect = min(1, steer_expect)
+        steer_expect = max(-1, steer_expect)
+
+        return steer_expect

@@ -44,6 +44,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pid_controller" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PID_navigation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pid_controller.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PID_navigation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -68,6 +89,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main_pid_control" />
+        <item itemvalue="Python.pid_controller" />
         <item itemvalue="Python.utils" />
       </list>
     </recent_temporary>
@@ -90,29 +112,29 @@
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
     <state width="1358" height="1483" key="DebuggerActiveHint/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599113489341" />
-    <state x="3994" y="489" key="FileChooserDialogImpl" timestamp="1599099453046">
+    <state x="3994" y="489" key="FileChooserDialogImpl" timestamp="1602556342473">
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
-    <state x="3994" y="489" key="FileChooserDialogImpl/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599099453046" />
-    <state width="3699" height="517" key="GridCell.Tab.0.bottom" timestamp="1602554371754">
+    <state x="3994" y="489" key="FileChooserDialogImpl/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602556342473" />
+    <state width="3699" height="697" key="GridCell.Tab.0.bottom" timestamp="1602579330560">
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
-    <state width="3699" height="517" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602554371754" />
+    <state width="3699" height="697" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602579330560" />
     <state width="2443" height="677" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599099227010" />
-    <state width="3699" height="517" key="GridCell.Tab.0.center" timestamp="1602554371754">
+    <state width="3699" height="697" key="GridCell.Tab.0.center" timestamp="1602579330560">
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
-    <state width="3699" height="517" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602554371754" />
+    <state width="3699" height="697" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602579330560" />
     <state width="2443" height="677" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599099227010" />
-    <state width="3699" height="517" key="GridCell.Tab.0.left" timestamp="1602554371754">
+    <state width="3699" height="697" key="GridCell.Tab.0.left" timestamp="1602579330560">
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
-    <state width="3699" height="517" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602554371754" />
+    <state width="3699" height="697" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602579330560" />
     <state width="2443" height="677" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599099227010" />
-    <state width="3699" height="517" key="GridCell.Tab.0.right" timestamp="1602554371754">
+    <state width="3699" height="697" key="GridCell.Tab.0.right" timestamp="1602579330560">
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
-    <state width="3699" height="517" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602554371754" />
+    <state width="3699" height="697" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602579330560" />
     <state width="2443" height="677" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599099227010" />
     <state width="3699" height="532" key="GridCell.Tab.1.bottom" timestamp="1599119537335">
       <screen x="2560" y="0" width="3840" height="2160" />
@@ -134,10 +156,10 @@
     </state>
     <state width="3699" height="532" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599119537335" />
     <state width="2443" height="677" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599099232696" />
-    <state x="3293" y="182" width="2463" height="1800" key="SettingsEditor" timestamp="1602513188498">
+    <state x="3293" y="182" width="2463" height="1811" key="SettingsEditor" timestamp="1602556346854">
       <screen x="2560" y="0" width="3840" height="2160" />
     </state>
-    <state x="3293" y="182" width="2463" height="1800" key="SettingsEditor/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602513188498" />
+    <state x="3293" y="182" width="2463" height="1811" key="SettingsEditor/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602556346854" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

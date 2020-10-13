@@ -84,10 +84,16 @@ class LocalPlanner():
             # slow
             # args_lat = self.args_lat_city_dict
             # args_long = self.args_long_city_dict
+            pid_lat_mark = True
             self._pid_controller = VehiclePIDController(self._vehicle,
                                                         args_lateral=args_lat,
-                                                        args_longitudinal=args_long)
-            control = self._pid_controller.run_step(self._target_speed, self.target_waypoint)
+                                                        args_longitudinal=args_long,
+                                                        pid_lat_mark=pid_lat_mark)
+            if pid_lat_mark:
+                control = self._pid_controller.run_step(self._target_speed, self.target_waypoint)
+            else:
+                control = self._pid_controller.run_step(self._target_speed, self.target_waypoint, self._waypoint_buffer)
+
             # Purge the queue of obsolete waypoints
             vehicle_transform = self._vehicle.get_transform()
             max_index = -1

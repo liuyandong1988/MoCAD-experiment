@@ -64,7 +64,7 @@ try:
         else:
             left_lane_w.append(w)
     # planning route
-    planning_route = right_lane_w[-90:] + right_lane_w[:500]
+    planning_route = right_lane_w[-90:] + right_lane_w[:500]   # distance = 0.5 --> 500, distance = 1 --> 200
     for w in planning_route:
         world.debug.draw_string(w.transform.location, 'O', draw_shadow=False,
                                       color=carla.Color(r=255, g=0, b=0), life_time=60.0,
