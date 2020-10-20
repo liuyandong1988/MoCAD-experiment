@@ -1,5 +1,8 @@
 """
 MoCAD experiment 2-1 : Sensors
+UE4 editor 4.24
+carla 0.9.9.4
+python 3.5
 -----------------------------------------------------------
 1. rgb-camera sensor
 2. Asynchronous mode, server variable time step

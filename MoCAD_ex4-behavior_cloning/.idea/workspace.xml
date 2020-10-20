@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0b17218-82ef-4809-a679-85313f81bebb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="ProjectId" id="1hBVctxCvqi0Yj1AHh01KyTlTZl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/collect_data_asynchronous" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/carla_irl" />
+      <recent name="$PROJECT_DIR$/carla_data" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/collect_data/carla_data" />
+      <recent name="$PROJECT_DIR$/train_model" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/model" />
+      <recent name="$PROJECT_DIR$/carla_irl/model" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main_carla_control">
+    <configuration name="copy_img (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Imitation_RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/collect_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collect_data/copy_img.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_carla_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Imitation_RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_carla_control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_train_model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Imitation_RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/train_model" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_model/main_train_model.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manual_control_main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Imitation_RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/collect_data_asynchronous" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collect_data_asynchronous/manual_control_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="manual_control_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Imitation_RL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/collect_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/collect_data/manual_control_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main_carla_control" />
+        <item itemvalue="Python.manual_control_main (1)" />
+        <item itemvalue="Python.main_train_model (1)" />
+        <item itemvalue="Python.copy_img (1)" />
+        <item itemvalue="Python.manual_control_main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0b17218-82ef-4809-a679-85313f81bebb" name="Default Changelist" comment="" />
+      <created>1599484554259</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599484554259</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="3834" height="706" key="DebuggerActiveHint" timestamp="1599644283225">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3834" height="706" key="DebuggerActiveHint/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599644283225" />
+    <state x="3994" y="489" width="1060" height="1186" key="FileChooserDialogImpl" timestamp="1602732158168">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3994" y="489" width="1060" height="1186" key="FileChooserDialogImpl/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602732158168" />
+    <state width="3699" height="191" key="GridCell.Tab.0.bottom" timestamp="1602730951416">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="191" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602730951416" />
+    <state width="2439" height="191" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1602726744898" />
+    <state width="3699" height="191" key="GridCell.Tab.0.center" timestamp="1602730951416">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="191" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602730951416" />
+    <state width="2439" height="191" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1602726744898" />
+    <state width="3699" height="191" key="GridCell.Tab.0.left" timestamp="1602730951416">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="191" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602730951416" />
+    <state width="2439" height="191" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1602726744898" />
+    <state width="3699" height="191" key="GridCell.Tab.0.right" timestamp="1602730951416">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="191" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602730951416" />
+    <state width="2439" height="191" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1602726744898" />
+    <state width="2443" height="228" key="GridCell.Tab.1.bottom" timestamp="1599826837539">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2443" height="228" key="GridCell.Tab.1.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599826837539" />
+    <state width="2443" height="228" key="GridCell.Tab.1.bottom/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599809592833" />
+    <state width="2443" height="228" key="GridCell.Tab.1.center" timestamp="1599826837539">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2443" height="228" key="GridCell.Tab.1.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599826837539" />
+    <state width="2443" height="228" key="GridCell.Tab.1.center/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599809592832" />
+    <state width="2443" height="228" key="GridCell.Tab.1.left" timestamp="1599826837539">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2443" height="228" key="GridCell.Tab.1.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599826837539" />
+    <state width="2443" height="228" key="GridCell.Tab.1.left/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599809592832" />
+    <state width="2443" height="228" key="GridCell.Tab.1.right" timestamp="1599826837539">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2443" height="228" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1599826837539" />
+    <state width="2443" height="228" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1599809592833" />
+    <state x="3293" y="188" width="2463" height="1833" key="SettingsEditor" timestamp="1602730571990">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3293" y="188" width="2463" height="1833" key="SettingsEditor/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602730571990" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_model/utils.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_model/utils.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
