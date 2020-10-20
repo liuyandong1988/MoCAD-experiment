@@ -1,7 +1,7 @@
 """
 MoCAD experiment 1-1 : Create a race road and spawn a vehicle
 carla 0.9.9.4 https://github.com/carla-simulator/carla/releases
------------------------------------------------------------
+---------------------------------------------------------------
 1. reload the world
 2. create 30 vehicles
 """
