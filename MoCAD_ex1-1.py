@@ -3,7 +3,7 @@ MoCAD experiment 1-1 : Create a race road and spawn a vehicle
 UE4 editor 4.24
 carla 0.9.9.4
 python 3.5
------------------------------------------------------------
+-------------------------------------------------------------
 1. create a race road world
 2. draw the waypoints
 3. spawn a vehicle
