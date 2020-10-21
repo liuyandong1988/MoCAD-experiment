@@ -8,3 +8,6 @@ The self-designed map by RoadRunner.
 
 ## MoCAD_ex**
 The python script for each lesson. (python:3.5)
+
+## DQN_cartpole_FlappyBird
+Two DQN demos: Cartpole(non-image) and FlappyBird(image)
