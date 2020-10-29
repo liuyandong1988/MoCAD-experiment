@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c24291ad-6ad6-47e5-a2c5-8e8756af63be" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../tutorial/pygame_try.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../carla/agents/navigation/behavior_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../carla/agents/navigation/behavior_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../carla/agents/navigation/types_behavior.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../carla/agents/navigation/types_behavior.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../automatic_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/../automatic_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../manual_control.py" beforeDir="false" afterPath="$PROJECT_DIR$/../manual_control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../test/smoke/test_world.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../test/smoke/test_world.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Unreal/CarlaUE4/CarlaUE4.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Unreal/CarlaUE4/CarlaUE4.uproject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Unreal/CarlaUE4/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Unreal/CarlaUE4/Config/DefaultEngine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Unreal/CarlaUE4/Config/DefaultGame.ini" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Unreal/CarlaUE4/Config/DefaultGame.ini" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1hWvWla3K4ivZ8gO5eQRn8fQy4R" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/github-clone/3_rl_rgb_image_single_stop" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial_sensor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t1_rgb" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial_sensor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/t1_rgb.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="world_env" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tutorial_sensor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/world_env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.world_env" />
+        <item itemvalue="Python.t1_rgb" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c24291ad-6ad6-47e5-a2c5-8e8756af63be" name="Default Changelist" comment="" />
+      <created>1600139696892</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600139696892</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="2460" height="1483" key="DebuggerActiveHint" timestamp="1600331046364">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="2460" height="1483" key="DebuggerActiveHint/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600331046364" />
+    <state x="3994" y="495" width="1060" height="1175" key="FileChooserDialogImpl" timestamp="1602039743428">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3994" y="495" width="1060" height="1175" key="FileChooserDialogImpl/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602039743428" />
+    <state width="3699" height="356" key="GridCell.Tab.0.bottom" timestamp="1602034747071">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="356" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602034747071" />
+    <state width="3699" height="356" key="GridCell.Tab.0.center" timestamp="1602034747071">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="356" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602034747071" />
+    <state width="3699" height="356" key="GridCell.Tab.0.left" timestamp="1602034747070">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="356" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602034747070" />
+    <state width="3699" height="356" key="GridCell.Tab.0.right" timestamp="1602034747071">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="356" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1602034747071" />
+    <state width="3699" height="374" key="GridCell.Tab.1.bottom" timestamp="1600350124065">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="374" key="GridCell.Tab.1.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600350124065" />
+    <state width="3699" height="374" key="GridCell.Tab.1.center" timestamp="1600350124065">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="374" key="GridCell.Tab.1.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600350124065" />
+    <state width="3699" height="374" key="GridCell.Tab.1.left" timestamp="1600350124064">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="374" key="GridCell.Tab.1.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600350124064" />
+    <state width="3699" height="374" key="GridCell.Tab.1.right" timestamp="1600350124065">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="374" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600350124065" />
+    <state x="3293" y="182" width="2463" height="1800" key="SettingsEditor" timestamp="1600140257935">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3293" y="182" width="2463" height="1800" key="SettingsEditor/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600140257935" />
+  </component>
+</project>

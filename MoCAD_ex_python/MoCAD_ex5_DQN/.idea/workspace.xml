@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="592b12fc-4b9d-4a19-a269-f3d7619b600f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+  </component>
+  <component name="JupyterTrust" id="cd787b21-a932-4607-829c-59c6bf23d53d" />
+  <component name="ProjectId" id="1fDE4MoqD5NzlJWURpSgMM9jUtd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MoCAD_ex5_Debug" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.RL_main">
+    <configuration name="RL_main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DQN_auto_driving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/RL_main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="agent_dqn" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DQN_auto_driving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/agent_dqn.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="carla_env" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DQN_auto_driving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/carla_env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_test_control" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DQN_auto_driving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_test_control.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="try_threading" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DQN_auto_driving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/try_threading.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.RL_main" />
+        <item itemvalue="Python.carla_env" />
+        <item itemvalue="Python.main_test_control" />
+        <item itemvalue="Python.agent_dqn" />
+        <item itemvalue="Python.try_threading" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="592b12fc-4b9d-4a19-a269-f3d7619b600f" name="Default Changelist" comment="" />
+      <created>1595744070890</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595744070890</updated>
+      <workItem from="1603114376588" duration="1356000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="3834" height="966" key="DebuggerActiveHint" timestamp="1600569495490">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3834" height="966" key="DebuggerActiveHint/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1600569495490" />
+    <state x="968" y="312" width="1166" height="1349" key="FileChooserDialogImpl" timestamp="1603182192913">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state x="3950" y="439" width="1166" height="1349" key="FileChooserDialogImpl/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603099538865" />
+    <state x="968" y="312" key="FileChooserDialogImpl/65.24.2495.1416@65.24.2495.1416" timestamp="1603182192913" />
+    <state width="2449" height="428" key="GridCell.Tab.0.bottom" timestamp="1603182195154">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state width="3699" height="376" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945930" />
+    <state width="3677" height="654" key="GridCell.Tab.0.bottom/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795112" />
+    <state width="2449" height="428" key="GridCell.Tab.0.bottom/65.24.2495.1416@65.24.2495.1416" timestamp="1603182195154" />
+    <state width="2449" height="428" key="GridCell.Tab.0.center" timestamp="1603182195149">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state width="3699" height="376" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945930" />
+    <state width="3677" height="654" key="GridCell.Tab.0.center/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795112" />
+    <state width="2449" height="428" key="GridCell.Tab.0.center/65.24.2495.1416@65.24.2495.1416" timestamp="1603182195149" />
+    <state width="2449" height="428" key="GridCell.Tab.0.left" timestamp="1603182195148">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state width="3699" height="376" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945930" />
+    <state width="3677" height="654" key="GridCell.Tab.0.left/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795112" />
+    <state width="2449" height="428" key="GridCell.Tab.0.left/65.24.2495.1416@65.24.2495.1416" timestamp="1603182195148" />
+    <state width="2449" height="428" key="GridCell.Tab.0.right" timestamp="1603182195154">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state width="3699" height="376" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945930" />
+    <state width="3677" height="654" key="GridCell.Tab.0.right/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795112" />
+    <state width="2449" height="428" key="GridCell.Tab.0.right/65.24.2495.1416@65.24.2495.1416" timestamp="1603182195154" />
+    <state width="3699" height="322" key="GridCell.Tab.1.bottom" timestamp="1603073945924">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="322" key="GridCell.Tab.1.bottom/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945924" />
+    <state width="2438" height="492" key="GridCell.Tab.1.bottom/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795107" />
+    <state width="3699" height="322" key="GridCell.Tab.1.center" timestamp="1603073945924">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="322" key="GridCell.Tab.1.center/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945924" />
+    <state width="2438" height="492" key="GridCell.Tab.1.center/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795107" />
+    <state width="3699" height="322" key="GridCell.Tab.1.left" timestamp="1603073945924">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="322" key="GridCell.Tab.1.left/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945924" />
+    <state width="2438" height="492" key="GridCell.Tab.1.left/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795107" />
+    <state width="3699" height="322" key="GridCell.Tab.1.right" timestamp="1603073945924">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state width="3699" height="322" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603073945924" />
+    <state width="2438" height="492" key="GridCell.Tab.1.right/65.24.2495.1416/2560.0.3840.2160@65.24.2495.1416" timestamp="1595914795107" />
+    <state x="461" y="49" width="2725" height="2121" key="SettingsEditor" timestamp="1603114402455">
+      <screen x="65" y="24" width="2495" height="1416" />
+    </state>
+    <state x="3170" y="39" width="2725" height="2121" key="SettingsEditor/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1603006129630" />
+    <state x="461" y="49" key="SettingsEditor/65.24.2495.1416@65.24.2495.1416" timestamp="1603114402455" />
+    <state x="3950" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595862061553">
+      <screen x="2560" y="0" width="3840" height="2160" />
+    </state>
+    <state x="3950" y="46" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.2495.1416/2560.0.3840.2160@2560.0.3840.2160" timestamp="1595862061553" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MoCAD_ex5_DQN$RL_main.coverage" NAME="RL_main Coverage Results" MODIFIED="1603153660373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
